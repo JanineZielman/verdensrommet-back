@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_basic_text_sections",
+  "info": {
+    "name": "Basic Section",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "columns": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.columns"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/alternative-economies",
+      "handler": "alternative-economies.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/alternative-economies",
+      "handler": "alternative-economies.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/alternative-economies",
+      "handler": "alternative-economies.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

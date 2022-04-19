@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/visa-help",
+      "handler": "visa-help.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/visa-help",
+      "handler": "visa-help.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/visa-help",
+      "handler": "visa-help.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

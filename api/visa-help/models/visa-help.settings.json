@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "visa_helps",
+  "info": {
+    "name": "Visa Help",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid"
+    },
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero-full"
+    },
+    "section": {
+      "type": "dynamiczone",
+      "components": [
+        "basic.section"
+      ]
+    },
+    "links_logged_in": {
+      "type": "richtext"
+    }
+  }
+}

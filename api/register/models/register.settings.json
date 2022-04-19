@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "registers",
+  "info": {
+    "name": "Register",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "content.text",
+        "content.image",
+        "content.slider",
+        "content.settings"
+      ]
+    }
+  }
+}

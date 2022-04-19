@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_content_settings",
+  "info": {
+    "name": "settings",
+    "icon": "sliders-h",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section_id": {
+      "type": "string"
+    },
+    "background": {
+      "type": "boolean"
+    }
+  }
+}

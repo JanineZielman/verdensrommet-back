@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/register",
+      "handler": "register.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/register",
+      "handler": "register.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/register",
+      "handler": "register.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

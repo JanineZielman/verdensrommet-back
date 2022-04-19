@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "name": "About",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid"
+    },
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero-full"
+    },
+    "section": {
+      "type": "dynamiczone",
+      "components": [
+        "basic.section"
+      ]
+    }
+  }
+}

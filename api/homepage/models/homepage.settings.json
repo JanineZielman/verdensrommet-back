@@ -1,0 +1,91 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepage",
+  "info": {
+    "name": "homepage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Slug": {
+      "type": "uid"
+    },
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "news": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.news-section"
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.about-section"
+    },
+    "news_items": {
+      "collection": "news-item"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "icon_pressed": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "icon2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "mail_subject": {
+      "type": "string"
+    },
+    "announcement": {
+      "type": "text"
+    }
+  }
+}

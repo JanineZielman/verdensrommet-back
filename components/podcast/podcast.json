@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_podcast_podcasts",
+  "info": {
+    "name": "Podcast",
+    "icon": "volume-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "podcast_embed": {
+      "type": "string"
+    }
+  }
+}

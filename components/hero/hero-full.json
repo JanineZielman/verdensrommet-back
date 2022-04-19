@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_hero_hero_fulls",
+  "info": {
+    "name": "Hero Full",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "links": {
+      "type": "richtext"
+    }
+  }
+}

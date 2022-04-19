@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_items",
+  "info": {
+    "name": "News Item",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid"
+    },
+    "cover_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "intro_text": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "section": {
+      "type": "dynamiczone",
+      "components": [
+        "basic.section"
+      ]
+    },
+    "order": {
+      "type": "string"
+    },
+    "external_url": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_basic_columns",
+  "info": {
+    "name": "Columns",
+    "icon": "columns",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "column_1": {
+      "type": "richtext"
+    },
+    "column_2": {
+      "type": "richtext"
+    }
+  }
+}

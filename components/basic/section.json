@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_basic_sections",
+  "info": {
+    "name": "section",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.text"
+    },
+    "settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.settings"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.image"
+    },
+    "columns": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.columns"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.link"
+    },
+    "collapsible": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.collapsable"
+    },
+    "slider": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.slider"
+    }
+  }
+}

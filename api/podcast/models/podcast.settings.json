@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "podcasts",
+  "info": {
+    "name": "Podcast",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid"
+    },
+    "podcast_highlight": {
+      "type": "component",
+      "repeatable": false,
+      "component": "podcast.highlight"
+    },
+    "podcast": {
+      "type": "component",
+      "repeatable": true,
+      "component": "podcast.podcast"
+    },
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "basic.link"
+    }
+  }
+}

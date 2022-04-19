@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_basic_links",
+  "info": {
+    "name": "link",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link_url": {
+      "type": "string"
+    },
+    "link_text": {
+      "type": "string"
+    },
+    "popup": {
+      "type": "text"
+    },
+    "file": {
+      "type": "boolean"
+    }
+  }
+}

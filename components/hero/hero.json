@@ -1,0 +1,23 @@
+{
+  "collectionName": "hero",
+  "info": {
+    "name": "hero",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
