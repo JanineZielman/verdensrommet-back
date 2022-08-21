@@ -7,7 +7,22 @@
   },
   "options": {},
   "attributes": {
-    "podcast_embed": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string"
+    },
+    "link": {
       "type": "string"
     }
   }

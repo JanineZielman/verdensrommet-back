@@ -1,8 +1,9 @@
 {
   "collectionName": "components_podcast_highlights",
   "info": {
-    "name": "highlight",
-    "icon": "heading"
+    "name": "item",
+    "icon": "heading",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -21,7 +22,15 @@
     "title": {
       "type": "string"
     },
-    "subtitle": {
+    "podcast": {
+      "type": "component",
+      "repeatable": true,
+      "component": "podcast.podcast"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "link": {
       "type": "string"
     }
   }

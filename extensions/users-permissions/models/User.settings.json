@@ -65,7 +65,7 @@
     },
     "contact": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "city": {
       "type": "string",

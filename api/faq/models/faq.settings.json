@@ -29,6 +29,9 @@
     "faq": {
       "type": "dynamiczone",
       "components": []
+    },
+    "links_logged_in": {
+      "type": "richtext"
     }
   }
 }

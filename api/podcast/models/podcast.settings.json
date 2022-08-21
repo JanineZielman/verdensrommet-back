@@ -15,25 +15,20 @@
     "slug": {
       "type": "uid"
     },
-    "podcast_highlight": {
-      "type": "component",
-      "repeatable": false,
-      "component": "podcast.highlight"
-    },
-    "podcast": {
+    "podcast_item": {
       "type": "component",
       "repeatable": true,
-      "component": "podcast.podcast"
+      "component": "podcast.highlight"
     },
     "Hero": {
       "type": "component",
       "repeatable": false,
       "component": "hero.hero"
     },
-    "link": {
+    "highlight": {
       "type": "component",
       "repeatable": false,
-      "component": "basic.link"
+      "component": "podcast.main"
     }
   }
 }

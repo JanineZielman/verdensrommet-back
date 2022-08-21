@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_podcast_mains",
+  "info": {
+    "name": "main",
+    "icon": "exclamation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "audio": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "podcast": {
+      "type": "component",
+      "repeatable": false,
+      "component": "podcast.podcast"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
